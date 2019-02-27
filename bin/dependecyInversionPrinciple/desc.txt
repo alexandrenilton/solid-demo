@@ -1,0 +1,15 @@
+"Depend on Abstractions, not on concretions"
+
+In other words, we should design our software in such a way that various modules can be separated from each other using an abstract layer to bind them together.
+
+The classical use of this principle of bean configuration in Spring framework.
+
+In spring framework, all modules are provided as separate components which can work together by simply injected dependencies in other module. 
+This dependency is managed externally in XML files.
+
+These separate components are so well closed in their boundaries that we can use them in other software modules apart from spring with same ease. 
+This has been achieved by dependency inversion and open closed principles. 
+All modules expose only abstraction which is useful in extending the functionality or plug-in in another module.
+
+
+

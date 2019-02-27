@@ -1,0 +1,13 @@
+“One class should have one and only one responsibility”
+We should write, change and maintain a class for only one purpose. 
+
+Uma classe deve ter uma e somente uma unica responsabilidade, com inicio e fim bem definido.
+
+Classe Person cuida somente de Pessoas.
+Classe Account cuida somente de Contas.
+
+- Tudo que nao for de segredo público, deve ser mantido em segredo dentro da classe (private);
+- Uso de getters and setters para retorno e atribuição de valores.
+
+Coesão: uma única responsabilidade.
+

@@ -1,0 +1,10 @@
+"Derived types must be completely substitutable for their base types"
+
+That means that the classes fellow developer created by extending our class should be able to fit in application without failure.
+This requires the objects of your subclasses to behave in the same way as the objects of your superclass.
+This is mostly seen in places where we do run time types identification and then cast it to appropiate reference type.
+
+Princípio: Classes derivadas devem poder ser substituídas por suas classes BASES.
+- Considerado uma extensão do OCP.
+- Em resumo, diz que toda classe filho deve poder ser substituída pela pai sem problemas, seja o pai uma interface, classe ou classe abastrata.
+

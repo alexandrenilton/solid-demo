@@ -1,0 +1,11 @@
+"Software components should be open fro extension, but closed for modification"
+
+This means that our classes should be designed such a way that whenever fellow developrs wants to change, the flow of control in specific conditions in application, 
+all they need to extends our class and override some functions and that's it.
+
+O Código deve estar aberto para EXTENSÕES, porém fechado para ALTERAÇÕES:
+- Toda atualização/adição de funcionalidade que modifique um código existente é chamada de alteração
+- Toda atualização/adição de funcionalidade que NÃO modifique nenhum código existente é chamada de extensão.
+
+Conseguimos obedecer esse principio atraves da abstracao:
+- Toda interface ou classe abstrata possui apenas uma abstracao da funcao a ser implementada, sendo assim, ela nunca é alterada, apenas extendida

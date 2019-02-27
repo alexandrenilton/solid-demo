@@ -1,0 +1,10 @@
+All this concept used to given by those who want to become famous only with Articles and use to confuse others
+There are few thumb rule
+
+1. Re usability
+2. Upgradibility with Zero or minimal downtime
+3. Scalability
+4. Manageability
+5. Loose coupling
+
+Keep in mind these thumb rule automatically you will design best
