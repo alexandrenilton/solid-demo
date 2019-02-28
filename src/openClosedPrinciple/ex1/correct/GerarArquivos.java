@@ -1,4 +1,4 @@
-package openClosedPrinciple.correct;
+package openClosedPrinciple.ex1.correct;
 
 import java.util.ArrayList;
 import java.util.Arrays;

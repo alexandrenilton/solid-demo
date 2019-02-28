@@ -1,4 +1,4 @@
-package openClosedPrinciple.correct;
+package openClosedPrinciple.ex1.correct;
 
 public class ArquivoPdf extends Arquivo {
 	

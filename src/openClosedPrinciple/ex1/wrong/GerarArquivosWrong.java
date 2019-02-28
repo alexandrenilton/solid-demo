@@ -1,13 +1,13 @@
-package openClosedPrinciple.wrong;
+package openClosedPrinciple.ex1.wrong;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import openClosedPrinciple.correct.Arquivo;
-import openClosedPrinciple.correct.ArquivoPdf;
-import openClosedPrinciple.correct.ArquivoTxt;
-import openClosedPrinciple.correct.ArquivoWord;
+import openClosedPrinciple.ex1.correct.Arquivo;
+import openClosedPrinciple.ex1.correct.ArquivoPdf;
+import openClosedPrinciple.ex1.correct.ArquivoTxt;
+import openClosedPrinciple.ex1.correct.ArquivoWord;
 
 public class GerarArquivosWrong {
 	public void gerarArquivos(List<Arquivo> arquivos) {
